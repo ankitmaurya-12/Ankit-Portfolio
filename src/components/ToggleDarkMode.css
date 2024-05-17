@@ -1,0 +1,39 @@
+/* src/components/ToggleDarkMode.css */
+.toggle-dark-mode {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  padding: 10px;
+  background: #0073e6;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+body.dark-mode {
+  background-color: #333;
+  color: #fff;
+}
+
+body.dark-mode .App {
+  background-color: #444;
+  color: #fff;
+}
+
+body.dark-mode .navbar {
+  background-color: #555;
+}
+
+body.dark-mode .navbar ul li a {
+  color: #fff;
+}
+
+body.dark-mode .navbar ul li a:hover {
+  color: #ccc;
+}
+
+/* New CSS for changing name color in dark mode */
+body.dark-mode .header-name {
+  color: #fff;
+}

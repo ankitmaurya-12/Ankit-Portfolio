@@ -1,0 +1,67 @@
+/* src/App.css */
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header, section, footer {
+  margin-bottom: 20px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2em;
+  color: #333;
+}
+
+header p, section h2, section h3 {
+  margin: 10px 0;
+}
+
+header p a, section a {
+  color: #0073e6;
+  text-decoration: none;
+}
+
+header p a:hover, section a:hover {
+  text-decoration: underline;
+}
+
+section h2 {
+  font-size: 1.5em;
+  border-bottom: 2px solid #0073e6;
+  padding-bottom: 5px;
+}
+
+section h3 {
+  font-size: 1.2em;
+  margin-top: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.9em;
+  color: #666;
+}
